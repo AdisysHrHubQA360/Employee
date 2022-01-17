@@ -1,0 +1,166 @@
+{
+  "name": "Employee Hr Hub Scenario",
+  "description": "Scenario",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "TestingFrameworkUi": "[1.3.3]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c86e2381-fd78-4f3b-8673-5e18b033a3fa",
+        "fileName": "Modules\\Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3e93e070-609b-4a65-be3a-98fa431a3998",
+        "fileName": "Module Sequences\\My HR\\Address.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a85837d2-58bf-4ba5-8660-ea062d15a3c1",
+        "fileName": "Module Sequences\\My HR\\Profile.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7a15f704-23d7-4803-bd31-9abe387f2ddc",
+        "fileName": "Module Sequences\\My HR\\Personal.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0c22f7f4-620d-47f6-b83b-99398bc3f498",
+        "fileName": "Module Sequences\\Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "73818384-38a8-4494-a388-d7eee0a61218",
+        "fileName": "Module Sequences\\My HR\\Identification.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3c1b61cb-b4d7-4f4b-8fac-a455e002d393",
+        "fileName": "Module Sequences\\My HR\\Compensation.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c0db8ce8-5b60-4cf8-a0a5-7520e9505ba3",
+        "fileName": "Module Sequences\\My HR\\Dependent.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "76397f08-558b-473e-9678-529f93617372",
+        "fileName": "Module Sequences\\My HR\\DirectDeposit.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "59e0e2c8-dad6-4628-abe2-211bd9598651",
+        "fileName": "Module Sequences\\My HR\\DocumentCenter.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "42126490-5e31-4543-8b30-cf7ca7af0622",
+        "fileName": "Module Sequences\\Timecard\\Missing Timecard.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "175a9c91-8023-43e0-9080-862785d8bd22",
+        "fileName": "Module Sequences\\Timecard\\Monthly Timecard.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b03f20f1-eaa4-479e-b92c-d5c92501021e",
+        "fileName": "Module Sequences\\Timecard\\My Timecard.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f4e793e0-a4ba-4d59-bbbf-f89978d90bf1",
+        "fileName": "Module Sequences\\Timecard\\Save and submit.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b7557f63-4113-4039-882f-ac06feb5ce33",
+        "fileName": "Module Sequences\\Ccoperative Hub\\Cooperative Hub.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "23f97e8f-8386-45e4-9c97-85b7b922bb6e",
+        "fileName": "Module Sequences\\Company\\Announcement.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0b9acbd6-60e3-40ef-9c3f-2adf59c4669d",
+        "fileName": "Module Sequences\\Company\\Calendar.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "dc0df2f7-9bc2-4856-ab2c-8c7f5dfb719f",
+        "fileName": "Module Sequences\\Company\\Holiday.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "2c931b8b-4ce5-4cbd-a7b5-1a2e7f367474",
+        "fileName": "Module Sequences\\Support\\FAQs.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "82801ce8-182b-477f-b3fe-9813e7dbf78e",
+        "fileName": "Module Sequences\\Support\\support.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bdfe3e36-d61f-41db-99e1-bd75061782cc",
+        "fileName": "Module Sequences\\Support\\Video.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "65e364b1-d31a-48ef-a920-40e184102026",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
